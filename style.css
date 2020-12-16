@@ -1,0 +1,449 @@
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+body{
+   background: rgb(249 249 249);
+}
+img{
+   max-width: 100%;
+}
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* main css */
+.header-section{
+    background: #fff;
+    border-bottom: 1px solid #f2f2f2;
+    height: 158px;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+.menu-icon{}
+.menu-icon span a {
+    display: inline-block;
+    font-size: 21px;
+    line-height: 84px;
+    color: #606060;
+}
+.logo{
+    margin-top: 9px;
+}
+sup {
+    top: -11px;
+    font-size: 11px;
+    margin-left: -6px;
+}
+.logo img{
+    /* max-width: 116px; */
+}
+.search{
+    text-align: center;
+    margin-top: 28px;
+}
+.search form{}
+.search form input{
+    outline: none;
+    border: 1px solid #ccc;
+    width: 84%;
+    padding: 4px 15px;
+    border-radius: 2px 0 0 2px;
+    box-shadow: inset 0 1px 2px #f2f2f2;
+    border-right: none;
+}
+
+.search form button {
+    border: 1px solid #ccc;
+    padding: 4px 18px;
+    display: inline-block;
+    margin-left: -5px;
+    border-radius: 0 2px 2px 0;
+    box-shadow: inset 0 1px 2px #f2f2f2;
+}
+
+.header-top-menu{
+    
+}
+.header-top-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header-top-menu ul li{
+    display: inline-block;
+    position: relative;
+}
+.header-top-menu ul li p , span p{
+    
+    background: hsl(0deg 0% 38%);
+    font-size: 12px;
+    color: #f2f2f2;
+    padding: 2px 5px;
+    border-radius: 3px;
+    position: absolute;
+    /* width: 5rem; */
+    top: 93px;
+    visibility: hidden;
+    opacity: 0;
+    text-align: center;
+   
+}
+.header-top-menu ul li:nth-child(2) p{
+    width: 6rem;
+}
+.header-top-menu ul li:hover p{
+    visibility: visible;
+    opacity: 1;
+  
+}
+.header-top-menu ul li a{
+    font-size: 22px;
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 92px;
+    color: #606060;
+}
+.header-top-menu ul li a img{
+    width: 29px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+}
+
+hr{
+    margin: 0;
+    margin-bottom: 10px;
+    width: 69rem;
+}
+
+/* header bottom menu */
+.header-bottom-menu{
+    margin-top: 2px;
+}
+.header-bottom-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header-bottom-menu ul li{
+    display: inline-block;
+    margin-right: 3px;
+}
+.header-bottom-menu ul li:first-child a{
+    background: hsl(0deg 0% 38%);
+    color: #f2f2f2;
+    padding: 4px 13px;
+    display: inline-block;
+    margin-left: 25px;
+}
+.header-bottom-menu ul li:first-child a:hover{
+    background:#797979 ;
+}
+.header-bottom-menu ul li a{
+    display: inline-block;
+    font-size: 15px;
+    padding: 4px 10px;
+    color: #606060;
+    background: #e8e8e8;
+    border: 1px solid #ccc;
+    border-radius: 26px;
+}
+.header-bottom-menu ul li a:hover{
+    background:#dbdada ;
+    transition: .5s;
+}
+.header-bottom-menu span{
+    display: inline-block;
+}
+.header-bottom-menu span a{
+    display: inline-block;
+    color:#606060;
+    font-size: 15px;
+}
+.header-bottom-menu span:hover p{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* left fixed menu */
+.fixed-col-3{
+    position: relative;
+    top: 92px;
+    width: 262px;
+}
+.left-fixed-menu{
+    background: #fff;
+    position: fixed;
+    width: 262px;
+    left: 0;
+    top: 91px;
+    height: 100%;
+    overflow: hidden;
+    z-index: 5;
+  
+}
+.left-fixed-menu:hover{
+    overflow-y: scroll;
+}
+.left-fixed-menu-list{
+    border-bottom: 1px solid #ccc;
+  
+}
+.left-fixed-menu-list ul li:last-child{
+    margin-bottom: 8px;
+}
+.left-fixed-menu .left-fixed-menu-list:nth-child(2){
+    margin-top: 8px;
+}
+.left-fixed-menu .left-fixed-menu-list:first-child{
+    margin-top: 20px;
+}
+.left-fixed-menu-list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.left-fixed-menu-list ul li{
+    
+}
+.left-fixed-menu-list ul li a{
+    
+    color: #030303;
+    font-size: 14px;
+    display: block;
+    padding: 8px 39px;
+}
+.left-fixed-menu-list ul li .active{
+    background:#d6d6d6 ;
+}
+.left-fixed-menu-list ul li .active{
+    font-weight: 600;
+}
+.left-fixed-menu-list ul li .active i{
+    color: #f00;
+}
+.left-fixed-menu-list ul li a:hover{
+    background: #e8e8e8;
+}
+.left-fixed-menu-list ul li a i{
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 23px;
+}
+
+.left-fixed-menu .left-fixed-menu-list:nth-child(3){
+    margin-top: 8px;
+    border-bottom: 1px solid #ccc;
+}
+.subscription-list ul li a span{
+    display: inline-block;
+    margin-right: 13px;
+} 
+.subscription-list ul li a span img{
+    border-radius: 50%;
+} 
+.subscription-list ul li:nth-child(4) a span img{
+    width: 36px;
+} 
+.test{
+    height: 100px;
+}
+.subscription-list ul li:nth-child(6) a span i{
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    top: 1px;
+    left: 8px;
+    margin-right: 18px;
+}
+.left-fixed-menu .left-fixed-menu-list:nth-child(4){
+    margin-top: 8px;
+}
+.left-fixed-menu .left-fixed-menu-list:nth-child(5){
+    margin-top: 8px;
+}
+.menu-heading{
+    color: #8b8b8b;
+    font-weight: 500;
+    padding: 8px 0 0px 41px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* footer */
+.footer{
+    margin-top: 8px;
+    margin-left: 34px;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer ul li {
+    display: inline-block;
+}
+.footer ul li a{
+    font-size: 13px;
+    color: #606060;
+    display: inline-block;
+    font-weight: 500;
+    padding: 0 3px;
+}
+.footer  p{
+    margin: 0;
+}
+.footer p a{
+    font-size: 13px;
+    color: #606060;
+    display: inline-block;
+    font-weight: 500;
+    padding: 0 3px;
+}
+.copyright{
+    margin-top: 30px;
+    margin-left: 34px;
+}
+.copyright p{
+    color: #909090;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* main content */
+.main-content-col-9{
+    position: relative;
+    top: 184px;
+}
+
+.main-content{
+    width: 1044px;
+}
+.content-img{
+    position: relative;
+}
+.content-img::after{
+    content: "5.32";
+    background: rgba(0, 0, 0, 0.56) none repeat scroll 0 0;
+    padding: 0 3px;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    
+}
+.hover-menu{
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    display: none;
+}
+.content-img:hover .hover-menu{
+    display: block;
+}
+.hover-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hover-menu ul li{}
+.hover-menu ul li a{
+    color: #fff;
+    display: inline-block;
+    padding: 5px 7px;
+    background: rgba(0, 0, 0, 0.808) none repeat scroll 0 0;
+    font-size: 14px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.hover-menu ul li a::before{
+    content: "Watch later";
+    text-transform: uppercase;
+    padding: 6px;
+    background: rgba(0, 0, 0, 0.815) none repeat scroll 0 0;
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    right: 28px;
+    top: 0px;
+    width: 93px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+    transform: scaleX(0);
+    transform-origin: right center;
+    text-align: center;
+}
+
+.hover-menu ul li .hover-item-2::before{
+    content: "Add to queue";
+    text-transform: uppercase;
+    padding: 6px;
+    background: rgba(0, 0, 0, 0.815) none repeat scroll 0 0;
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    right: 28px;
+    top: 0px;
+    width: 98px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+    transform: scaleX(0);
+    transform-origin: right center;
+    text-align: center;
+}
+
+.hover-menu ul li a:hover::before{
+    
+    visibility: visible;
+    opacity: 1;
+    transform: scaleX(1);
+ 
+}
+.hover-menu ul li:last-child a{
+    padding: 5px 8px;
+}
+.content-name{}
+.content-name-img{
+    position: relative;
+    left: 5px;
+}
+.content-name-text{}
+.content-name-text h3{
+    margin: 0;
+    font-size: 15px;
+}
+.content-name-text h3 a{
+    font-size: 14px;
+}
+.channel{}
+.channel p{
+    margin: 0;
+}
+.channel p a{
+    color: #606060;
+    font-size: 14px;
+}
+.Views{
+    margin-top: -8px;
+}
+.Views span{}
+.Views span a {
+    color: #606060;
+    font-size: 12px;
+}
+.Views .views-count a::after{
+    content: "•";
+    margin: 0 4px;
+}
